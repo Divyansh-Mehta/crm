@@ -30,4 +30,4 @@ spring.security.user.password=<auth-password>
 ````
 
 ### Api documentation
-To view Swagger API docs run the server and browse to [localhost:8080/swagger-ui.html](localhost:8080/swagger-ui.html)
+To view Swagger API docs run the server and browse to [localhost:8080/swagger-ui.html](http://localhost:8080/swagger-ui.html)
