@@ -1,0 +1,1 @@
+2024-11-09T23:15:00.064+05:30 ERROR 36125 --- [crm] [http-nio-8080-exec-1] c.a.crm.service.impl.SalesServiceImpl    : Sales deletion with id 34 failed
