@@ -65,7 +65,7 @@ public class InteractionLogControllerTest {
     void testGetAllLogsForACustomer() {
         List<InteractionLog> logs = new ArrayList<>();
         logs.add(interactionLog);
-        when(interactionLogService.getAllInteractionLogsOfASales(1L)).thenReturn(logs);
+        when(interactionLogService.getAllInteractionLogsOfACustomer(1L)).thenReturn(logs);
 
         ResponseEntity<List<InteractionLogDto>> response = interactionLogController.getAllLogsForACustomer(1L);
 
